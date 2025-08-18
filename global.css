@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+:root{
+
+  --textmd: 0.875rem/1.7 400;
+  --textsm: 0.75/1.7 400;
+
+  --brandcolor:#EF5F4C;
+  --backgroundcolor:#FFFFFF;
+  --surfacecolor:#F5F5F5;
+  --skeletoncolor:#D9D9D9;
+  --textcolor:#313131;
+  --textcolorsecondary:#6C6C6C;
+  overflow: hidden;
+}
+
+body{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+a{
+  all: unset;
+}
+
+.flex{
+  display: flex;
+}
+
+.gap05{
+  gap: 0.5rem;
+}
+

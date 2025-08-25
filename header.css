@@ -54,7 +54,7 @@ body{
 
 @media (width >= 80em){
   body{
-    width: auto;
+    width: 1280px;
 }
 
   .headernavi{

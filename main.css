@@ -5,11 +5,12 @@ main{
     & img{
         width: 329px;
         height: 329px;
+        margin-bottom: 16px;
     }
 
     .contentmain{
         display: grid;
-        gap: 1rem;
+        
     }
 
 }
@@ -36,13 +37,15 @@ main{
             
             width: 286px;
             height: 286px;
+            margin-bottom: 0px;
         }
     }
 
     .contentmain{
         display: grid;
         grid-template-columns: repeat(4,286px);
-        gap:1.5rem ;
+        gap:1.5rem;
+        margin-bottom: 0px;
 
     }
 
